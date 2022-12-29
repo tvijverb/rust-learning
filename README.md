@@ -5,9 +5,9 @@ rustc main.rs
 ./main
 ```
 
-New Rust project
+New Rust project no git
 ```
-cargo new <name>
+cargo new <name> --vcs none
 cd <name>
 ```
 
