@@ -36,6 +36,11 @@ Test rust
 cargo test ( -- --show-output --test-threads=2)
 ```
 
+Documentation
+```
+cargo doc
+```
+
 Remove all git (sub)directories
 ```
 ( find . -type d -name ".git" && find . -name ".gitignore" && find . -name ".gitmodules" ) | xargs rm -rf
